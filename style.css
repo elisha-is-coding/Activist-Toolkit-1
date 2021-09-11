@@ -1,0 +1,314 @@
+/*Site Colors:
+Dark Purple (text color/navBar color) #442C62
+Light Purple Haze (slideUpThing Background Color) #EAE7FA
+Periwinkle (main background color) #838BC2
+Lilac Purple Light (extra background color option) #C3C7DF
+*/
+html{
+   background: #EAE7FA;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+}
+/*Home page Start*/
+.navBar{
+  display: flex;
+  justify-content: space-between;
+
+}
+.wrapper{
+   width: 1170px;
+  margin: 0 auto;
+}
+#parallax{
+  
+}
+header{
+  height: 100px;
+  background: #442C62;
+  width: 100%;
+  z-index: 12;
+}
+
+.fix{
+  position: fixed;
+}
+
+
+.logo{
+  display: flex;
+  width: 50%;
+  float: left;
+  line-height: 100px;
+}
+.logo a{
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+nav{
+  float: right; 
+  line-height: 100px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans serif;
+  color: #fff;
+  letter-spacing: 4px;
+  margin: 0 10px; 
+}
+.banner-area{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 100px;
+ padding-bottom: 500px;
+  background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(https://dch81km8r5tow.cloudfront.net/wp-content/uploads/2017/03/END-SEXUAL-HARASSMENT-11.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner-area h2{
+  padding-top: 5%;
+  font-size: 45px;
+  font-family: 'Dela Gothic One', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  color: #fff;
+}
+.banner-area p{
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Dela Gothic One', cursive;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  padding-top: 2%;
+}
+.content-area{
+  width: 100%;
+  position: relative;
+  top: 700px;
+  background: #EAE7FA;
+  height: 500px;
+}
+.content-area h2{
+  font-family: 'Josefin Sans', sans serif;
+  letter-spacing: 4px;
+  padding-top: 50px;
+  font-size: 40px;
+  margin: 0;
+  background: #EAE7FA;
+}
+.content-area p{
+  padding: 2% 0;
+  font-family: 'Josefin Sans', sans serif;
+  line-height: 30px;
+  background: #EAE7FA;
+  margin-left: 5cm;
+  margin-right: 5cm;
+}
+#misconceptButton {
+  background: rgb(156, 79, 245);
+  font-family: 'Josefin Sans', sans serif;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+#fact{
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  background: #EAE7FA;
+  color: rgb(153, 0, 255); 
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+/*Home Page End*/
+/*Learn More Page Start*/
+.learn-more h1{
+  padding-top: 50px;
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 40px;
+}
+.whatIsIt h2{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold 100;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 25px;
+  padding-top: 15px;
+}
+.whatIsIt p{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+#imageAssaultHarassment {
+  max-width: 30%;
+  max-height: 50%;
+  border-radius: 7%;
+  padding-top: 15px;
+  border-color: black;
+  border-width: 3px;
+  padding-bottom: 15px;
+}
+.victimAffect h2{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold 100;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 25px;
+  padding-top: 15px;
+}
+.victimAffect p{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+#imageSexualAssaultInfograph {
+  max-width: 35%;
+  max-height: 55%;
+  border-radius: 7%;
+  padding-top: 15px;
+  border-color: black;
+  border-width: 3px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.see-the-stats h1{
+  padding-top: 30px;
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 40px;
+}
+.see-the-stats h4{
+  padding-top: 15px;
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 25px;
+}
+.see-the-stats p{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+#violenceAgainstTeens {
+  max-width: 60%;
+  max-height: 80%;
+  border-radius: 7%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/*Learn More Page End*/
+/*Take Action Page Start*/
+.take-action h1{
+  padding-top: 50px;
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 40px;
+}
+.whatCanYouDo h2{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold 100;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 25px;
+  padding-top: 15px;
+}
+.whatCanYouDo h4{
+  padding-top: 15px;
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  font-size: 20px;
+}
+.whatCanYouDo p{
+  font-family: 'Josefin Sans', sans serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5cm;
+  margin-left: 5cm;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+#takeAction {
+  max-width: 30%;
+  max-height: 50%;
+  border-radius: 7%;
+  padding-top: 15px;
+  border-color: black;
+  border-width: 3px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/*Take Action Page End*/
